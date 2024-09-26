@@ -1,9 +1,9 @@
 public class Character {
 
-float health;
-string name
+    String name;
+    float health;
 
-    public void changeSpeed(int change){
+    public void changeHealth(int change){
         health = health - change;
     }
 }
